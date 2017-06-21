@@ -8,11 +8,11 @@ To setup an Amazon Web Services (AWS) EC2 instance, execute the following script
 
 For a GPU-enabled server optimized for deep learning (subject to availability in your AWS region)
 ```
-./setup_p2.sh
+./setup/setup_p2.sh
 ```
 For a regular server (available on all AWS regions) 
 ```
-./setup_t2.sh
+./setup/setup_t2.sh
 ```
 
 These scripts will output information on how to connect to your instance and how to shut it down.
